@@ -1,0 +1,58 @@
+@import '../../breakpoints.scss';
+.navLogo{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.navSearch_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+    border: 1px #ec1c24 solid;
+    padding:0 0.5rem 0 1rem ;
+    @media (max-width: $media-width-md) {
+        margin-top: 15px;
+    }
+}
+.navSearch{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border: none;
+    font-weight: 600;
+    font-family: 'Diodrum Cyrillic';
+}
+.navSearch:focus{
+    outline: none;
+}
+.offcanvas-title{
+    font-family: 'Diodrum Cyrillic';
+    font-size: 24px;
+    font-weight: 600;
+    color: #ec1c24;
+}
+.navLinks{
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    font-family: 'Diodrum Cyrillic';
+    font-size: 18px;
+}
+.navSearch_circle{
+    background-color: #ec1c24;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    // position: absolute;
+}
+.navSearch_icon{
+    width: 20px;
+    height: 20px;
+}

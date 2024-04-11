@@ -1,0 +1,13 @@
+@import '../../breakpoints.scss';
+
+.section__element {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Diodrum Cyrillic';
+    @media (max-width: $media-width-sm) {
+        font-size: 28px;
+    }
+    @media (max-width: $media-width-xs) {
+        font-size: 22px;
+    }
+}
