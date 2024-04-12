@@ -12,6 +12,9 @@ const DigitalStrategy = () => {
                 </div>
                 <div className='section__text'>
                 <h1>Digital Strategy</h1>
+                <div className='section__about'>
+                    <p>A plan for leveraging online platforms to create an online presence and accomplish particular marketing goals is known as a digital marketing strategy. These channels may consist of your website, social media, paid advertisements, organic search, and other web-based platforms.</p>
+                </div>
                 </div>
             </div>
             <Underline></Underline>

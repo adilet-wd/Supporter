@@ -9,6 +9,11 @@
         gap: 30px;
         font-family: 'Diodrum Cyrillic';
         font-weight: 300;
+        margin-bottom: 30px;
+        @media (max-width: $media-width-md) {
+            display: flex;
+            flex-direction: column;
+        }
         .section__logo {
             max-width: 140px;
             width: 100%;
@@ -25,6 +30,11 @@
         .section__text {
             color: #000000;
             font-weight: 600;
+            .section__about {
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }

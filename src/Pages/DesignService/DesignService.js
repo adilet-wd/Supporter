@@ -16,6 +16,9 @@ const DesignService = () => {
                 </div>
                 <div className='section__text'>
                 <h1>Design Service</h1>
+                <div className='section__about'>
+                    <p>Elevate your brand with our expert design services at Supporter. Our creative team specializes in crafting visually stunning logos, captivating templates, and engaging graphics that resonate with your audience. Whether you're launching a new venture or refreshing your brand identity, we work closely with you to understand your vision and bring it to life through innovative design solutions. With our attention to detail and passion for creativity, we'll help you make a lasting impression in today's competitive market.</p>
+                </div>
                 </div>
             </div>
             <SectionBlock>

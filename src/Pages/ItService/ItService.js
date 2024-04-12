@@ -17,6 +17,9 @@ const ItService = () => {
                 </div>
                 <div className='section__text'>
                 <h1>IT Service</h1>
+                <div className='section__about'>
+                <p>At Supporter, we pride ourselves on delivering top-notch IT services to address all your technical needs. From troubleshooting hardware issues like printer malfunctions to optimizing computer processors for peak performance, our team of skilled technicians is dedicated to resolving any IT problem you encounter swiftly and effectively. Whether you're a small business or a large corporation, we offer tailored solutions to keep your technology running smoothly, allowing you to focus on what matters most - your business.</p>
+                </div>
                 </div>
             </div>
             <SectionBlock>
