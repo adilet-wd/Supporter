@@ -51,6 +51,7 @@ code {
         .section__text {
             color: #000000;
             font-weight: 600;
+            width: 100%;
             .section__about {
                 font-weight: 400;
                 display: flex;
@@ -59,9 +60,11 @@ code {
             .title-center {
                 text-align: center;
             }
-            a {
-                color: #000000;
-            }
+        
+        }
+        a {
+            color: #000000;
         }
     }
 }
+

@@ -1,0 +1,42 @@
+@import "../../breakpoints.scss";
+.contact {
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        @media (max-width: $media-width-sm) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__item {
+        flex: 1;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+
+        @media (max-width: $media-width-md) {
+            margin: 10px;
+        }
+        @media (max-width: $media-width-sm) {
+            width: 90%;
+        }
+
+        & h3 {
+            font-size: 1.2em;
+            color: #343a40;
+            margin-bottom: 10px;
+        }
+        & p {
+            color: #6c757d;
+            .contact__link {
+                color: #6c757d;
+            }
+        }
+        
+    }
+    
+}

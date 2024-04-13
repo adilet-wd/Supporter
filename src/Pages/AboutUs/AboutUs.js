@@ -10,6 +10,7 @@ const AboutUs = () => {
                 <div className='section__text'>
                     <h1 className='title-center'>About Us</h1>
                     <div className='section__about'>
+                    <h3>Supporter</h3>
                     <p>At Supporter, we believe in the transformative power of technology and innovation. Founded with a vision to empower businesses in the digital age, we are dedicated to providing cutting-edge solutions and unparalleled service to our clients worldwide.</p>
                     <h3>Our Mission</h3>
                     <p>Our mission is simple yet ambitious: to be the driving force behind our clients' success in the ever-evolving digital landscape. We strive to deliver exceptional value by offering a comprehensive suite of services tailored to meet the diverse needs of modern businesses.</p>
