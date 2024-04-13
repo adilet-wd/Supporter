@@ -30,7 +30,7 @@ const Header = () => {
                   <Nav.Link href="/">SERVICES</Nav.Link>
                   <Nav.Link href="/about">ABOUT</Nav.Link>
                   <Nav.Link href="/contacts">CONTACTS</Nav.Link>
-                  <Nav.Link href="#projects">OUR PROJECTS</Nav.Link>
+                  <Nav.Link href="/projects">OUR PROJECTS</Nav.Link>
                 </Nav>
                 <div className='navSearch_block'>
                     <input type="text" placeholder='Search' className='navSearch' />

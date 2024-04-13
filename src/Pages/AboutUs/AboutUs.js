@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './AboutUs.scss';
 
 const AboutUs = () => {
     return (
@@ -9,7 +10,7 @@ const AboutUs = () => {
             <div className='section__title'>
                 <div className='section__text'>
                     <h1 className='title-center'>About Us</h1>
-                    <div className='section__about'>
+                    <div className='section__about about-us__about'>
                     <h3>Supporter</h3>
                     <p>At Supporter, we believe in the transformative power of technology and innovation. Founded with a vision to empower businesses in the digital age, we are dedicated to providing cutting-edge solutions and unparalleled service to our clients worldwide.</p>
                     <h3>Our Mission</h3>

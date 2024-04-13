@@ -13,6 +13,7 @@ import DigitalStrategy from './Pages/DigitalStrategy/DigitalStrategy';
 import AiService from './Pages/AiService/AiService';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Contacts from './Pages/Contacts/Contacts';
+import OurProjects from './Pages/OurProjects/OurProjects';
 
 function App() {
   const location = useLocation();
@@ -30,6 +31,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutUs />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path='/projects' element={<OurProjects />} />
           <Route path="/it-service" element={<ItService/>} />
           <Route path="/design-service" element={<DesignService/>} />
           <Route path="/digital-strategy" element={<DigitalStrategy/>} />
