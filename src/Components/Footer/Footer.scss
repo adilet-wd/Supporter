@@ -18,7 +18,7 @@
         width: 100%;
         display: flex;
         gap: 40px;
-        justify-content: space-around;
+        justify-content: center;
         @media (max-width: $media-width-sm) {
             flex-wrap: wrap;
         }

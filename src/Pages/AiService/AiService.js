@@ -8,7 +8,7 @@ import SectionElement from '../../Components/SectionElement/SectionElement';
 const AiService = () => {
     return (
         <>
-        <Container className='section-container it-container'>
+        <Container className='section-container ai-container'>
             <div className='section__title'>
                 <div className='section__logo'>
                     <AiServiceLogo></AiServiceLogo>

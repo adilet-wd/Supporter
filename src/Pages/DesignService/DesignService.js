@@ -8,7 +8,7 @@ import SectionElement from '../../Components/SectionElement/SectionElement';
 const DesignService = () => {
     return (
         <>
-        <Container className='section-container it-container'>
+        <Container className='section-container design-container'>
             <div className='section__title'>
                 <div className='section__logo'>
                     <DesignServiceLogo></DesignServiceLogo>

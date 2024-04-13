@@ -5,7 +5,7 @@ import './OurProjects.scss';
 const OurProjects = () => {
     return (
         <>
-        <Container className='section-container it-container'>
+        <Container className='section-container projects-container'>
             <div className='section__title'>
                 <div className='section__text'>
                     <h1 className='text-center'>Our Projects</h1>

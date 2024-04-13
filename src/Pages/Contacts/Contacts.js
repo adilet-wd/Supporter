@@ -5,7 +5,7 @@ import './Contacts.scss';
 const Contacts = () => {
     return (
         <>
-        <Container className='section-container it-container'>
+        <Container className='section-container contacts-container'>
             <div className='section__title'>
                 <div className='section__text'>
                     <h1 className='text-center'>Contacts</h1>

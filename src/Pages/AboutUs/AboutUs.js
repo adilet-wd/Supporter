@@ -6,7 +6,7 @@ import './AboutUs.scss';
 const AboutUs = () => {
     return (
         <>
-        <Container className='section-container it-container'>
+        <Container className='section-container about-container'>
             <div className='section__title'>
                 <div className='section__text'>
                     <h1 className='text-center'>About Us</h1>
