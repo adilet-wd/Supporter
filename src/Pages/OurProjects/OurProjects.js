@@ -8,7 +8,7 @@ const OurProjects = () => {
         <Container className='section-container it-container'>
             <div className='section__title'>
                 <div className='section__text'>
-                    <h1 className='title-center'>Our Projects</h1>
+                    <h1 className='text-center'>Our Projects</h1>
                     <div className='section__about our-projects__about'>
                         <p>A civic service at the service of students and companies. Following the example of the law clinics in which students, supervised by professors, carry out "pro bono" legal work in the service of the general interest, the AI Clinic will borrow the same model in the direction of organizations.</p>
                         <p>There is a twofold interest.</p>

@@ -8,7 +8,7 @@ const Contacts = () => {
         <Container className='section-container it-container'>
             <div className='section__title'>
                 <div className='section__text'>
-                    <h1 className='title-center'>Contacts</h1>
+                    <h1 className='text-center'>Contacts</h1>
                     <div className='section__about'>
                         <div className='contact__info'>
                             <div className='contact__item'>

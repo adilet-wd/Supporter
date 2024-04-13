@@ -8,7 +8,7 @@ import { ReactComponent as ServiceAI } from '../../assets/icons/service-ai.svg';
 
 import './Home.scss';
 import { Link } from 'react-router-dom';
-import Underline from '../../Components/Underline/Underline';
+
 const Home = () => {
     return (
         <>
