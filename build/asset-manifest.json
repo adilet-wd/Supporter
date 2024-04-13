@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cbaea9d0.css",
+    "main.js": "/static/js/main.514b9298.js",
+    "static/media/DiodrumCyrillic-Light.eot": "/static/media/DiodrumCyrillic-Light.a71e92fd35523ca6b7b2.eot",
+    "static/media/DiodrumCyrillic-Light.ttf": "/static/media/DiodrumCyrillic-Light.7bf2600db630d859dc0e.ttf",
+    "static/media/DiodrumCyrillic-Regular.eot": "/static/media/DiodrumCyrillic-Regular.0366b991a84f5cfc8e29.eot",
+    "static/media/DiodrumCyrillic-Regular.ttf": "/static/media/DiodrumCyrillic-Regular.a7f9134ebdeac4f39a10.ttf",
+    "static/media/DiodrumCyrillic-Medium.eot": "/static/media/DiodrumCyrillic-Medium.bf3600aa8071a5a4dad5.eot",
+    "static/media/DiodrumCyrillic-Medium.ttf": "/static/media/DiodrumCyrillic-Medium.ef638a2da94ab561a149.ttf",
+    "static/media/DiodrumCyrillic-Semibold.eot": "/static/media/DiodrumCyrillic-Semibold.eff6a8d8bae738c69047.eot",
+    "static/media/DiodrumCyrillic-Semibold.ttf": "/static/media/DiodrumCyrillic-Semibold.ad0cc5ce93d42b04c828.ttf",
+    "static/media/DiodrumCyrillic-Extralight.eot": "/static/media/DiodrumCyrillic-Extralight.012f7385d4554d7b7e6a.eot",
+    "static/media/DiodrumCyrillic-Extralight.ttf": "/static/media/DiodrumCyrillic-Extralight.0cd9dad58eefed3f5c26.ttf",
+    "static/media/DiodrumCyrillic-Bold.eot": "/static/media/DiodrumCyrillic-Bold.82984e4ee761852da19f.eot",
+    "static/media/DiodrumCyrillic-Bold.ttf": "/static/media/DiodrumCyrillic-Bold.93503a583b03506146cc.ttf",
+    "static/media/DiodrumCyrillic-Regular.woff": "/static/media/DiodrumCyrillic-Regular.0874bd6a00f7a1fe91ae.woff",
+    "static/media/DiodrumCyrillic-Light.woff": "/static/media/DiodrumCyrillic-Light.80caf0e1412751806133.woff",
+    "static/media/DiodrumCyrillic-Semibold.woff": "/static/media/DiodrumCyrillic-Semibold.875611eb42f5873dd274.woff",
+    "static/media/DiodrumCyrillic-Medium.woff": "/static/media/DiodrumCyrillic-Medium.7211ff3ee576b4c1b47d.woff",
+    "static/media/DiodrumCyrillic-Bold.woff": "/static/media/DiodrumCyrillic-Bold.e731656f418573c6cf20.woff",
+    "static/media/DiodrumCyrillic-Extralight.woff": "/static/media/DiodrumCyrillic-Extralight.d6c3883f8f34aac31b45.woff",
+    "static/media/DiodrumCyrillic-Regular.woff2": "/static/media/DiodrumCyrillic-Regular.e1a29fa0f5a07207af1b.woff2",
+    "static/media/DiodrumCyrillic-Semibold.woff2": "/static/media/DiodrumCyrillic-Semibold.8a47bbc8df504992b2b4.woff2",
+    "static/media/DiodrumCyrillic-Light.woff2": "/static/media/DiodrumCyrillic-Light.fe4661d3f91a3ea28a12.woff2",
+    "static/media/DiodrumCyrillic-Medium.woff2": "/static/media/DiodrumCyrillic-Medium.0dc028b3de73accaca51.woff2",
+    "static/media/DiodrumCyrillic-Bold.woff2": "/static/media/DiodrumCyrillic-Bold.e42bf8c9822b3c56899f.woff2",
+    "static/media/DiodrumCyrillic-Extralight.woff2": "/static/media/DiodrumCyrillic-Extralight.a59b6d42f677bff15182.woff2",
+    "static/media/digital-strategy.svg": "/static/media/digital-strategy.dd3af4ba6d1da5f5bbe68a8369e21b90.svg",
+    "static/media/service-it.svg": "/static/media/service-it.64ec561336a4c9b8e185963088731a13.svg",
+    "static/media/service-ai.svg": "/static/media/service-ai.d981bfd70e77dd885e0515cf2680cfcc.svg",
+    "static/media/logo.svg": "/static/media/logo.6769c2678ef6981e46eb4b82f97445e8.svg",
+    "static/media/service-design.svg": "/static/media/service-design.ba04413bbd40c4dc7040343a30229900.svg",
+    "static/media/search.svg": "/static/media/search.10118a020984fed716af34d25b534e13.svg",
+    "index.html": "/index.html",
+    "main.cbaea9d0.css.map": "/static/css/main.cbaea9d0.css.map",
+    "main.514b9298.js.map": "/static/js/main.514b9298.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbaea9d0.css",
+    "static/js/main.514b9298.js"
+  ]
+}
