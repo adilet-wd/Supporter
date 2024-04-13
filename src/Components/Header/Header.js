@@ -27,9 +27,9 @@ const Header = () => {
               </Offcanvas.Header>
                 <Nav className="justify-content-end flex-grow-1 pe-3 navLinks">
                   <Nav.Link href="/">HOME</Nav.Link>
-                  <Nav.Link href="#services">SERVICES</Nav.Link>
-                  <Nav.Link href="#about">ABOUT</Nav.Link>
-                  <Nav.Link href="#contact">CONTACT</Nav.Link>
+                  <Nav.Link href="/">SERVICES</Nav.Link>
+                  <Nav.Link href="/about">ABOUT</Nav.Link>
+                  <Nav.Link href="/contacts">CONTACTS</Nav.Link>
                   <Nav.Link href="#projects">OUR PROJECTS</Nav.Link>
                 </Nav>
                 <div className='navSearch_block'>

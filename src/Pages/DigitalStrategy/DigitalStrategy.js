@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { ReactComponent as DigitalStrategyLogo } from '../../assets/icons/digital-strategy.svg';
-import Underline from '../../Components/Underline/Underline';
+
 const DigitalStrategy = () => {
     return (
         <>
@@ -17,7 +17,6 @@ const DigitalStrategy = () => {
                 </div>
                 </div>
             </div>
-            <Underline></Underline>
         </Container>
         </>
     );

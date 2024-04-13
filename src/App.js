@@ -11,6 +11,8 @@ import ItService from './Pages/ItService/ItService';
 import DesignService from './Pages/DesignService/DesignService';
 import DigitalStrategy from './Pages/DigitalStrategy/DigitalStrategy';
 import AiService from './Pages/AiService/AiService';
+import AboutUs from './Pages/AboutUs/AboutUs';
+import Contacts from './Pages/Contacts/Contacts';
 
 function App() {
   const location = useLocation();
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path='/' element={<Home />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/contacts' element={<Contacts />} />
           <Route path="/it-service" element={<ItService/>} />
           <Route path="/design-service" element={<DesignService/>} />
           <Route path="/digital-strategy" element={<DigitalStrategy/>} />

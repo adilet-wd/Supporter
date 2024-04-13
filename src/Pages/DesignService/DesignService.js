@@ -4,7 +4,6 @@ import { ReactComponent as DesignServiceLogo } from '../../assets/icons/service-
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
 import SectionElement from '../../Components/SectionElement/SectionElement';
-import Underline from '../../Components/Underline/Underline';
 
 const DesignService = () => {
     return (
@@ -43,8 +42,7 @@ const DesignService = () => {
                     <SectionElement>Leaflet Design</SectionElement>
                     <SectionElement>Business Card Design</SectionElement>
                 </SectionList>
-            </SectionBlock> 
-            <Underline></Underline>
+            </SectionBlock>
         </Container>
         </>
     );

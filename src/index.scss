@@ -1,5 +1,5 @@
 @import "color_variables";
-
+@import 'breakpoints.scss';
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -21,3 +21,47 @@ code {
         monospace;
 }
 
+.section-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .section__title {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-family: 'Diodrum Cyrillic';
+        font-weight: 300;
+        margin-bottom: 30px;
+        @media (max-width: $media-width-md) {
+            display: flex;
+            flex-direction: column;
+        }
+        .section__logo {
+            max-width: 140px;
+            width: 100%;
+            height: 130px;
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+            @media (max-width: $media-width-sm) {
+                max-width: 120px;
+                height: 110px;
+            }
+        }
+        .section__text {
+            color: #000000;
+            font-weight: 600;
+            .section__about {
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+            }
+            .title-center {
+                text-align: center;
+            }
+            a {
+                color: #000000;
+            }
+        }
+    }
+}

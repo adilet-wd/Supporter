@@ -37,7 +37,6 @@ const AiService = () => {
                     <SectionElement>Network maintenance</SectionElement>
                 </SectionList>
             </SectionBlock> 
-            <Underline></Underline>
         </Container>
         </>
     );
