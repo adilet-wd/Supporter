@@ -12,6 +12,7 @@ import { ReactComponent as XLogo } from '../../assets/icons/x.svg';
 import { ReactComponent as YouTubeLogo } from '../../assets/icons/youtube.svg';
 
 
+
 const Footer = () => {
     return (
         <footer className='footer'>
@@ -50,6 +51,14 @@ const Footer = () => {
                     </a>
                 </div>
             </Container>
+            <div className='footer-copyright'>
+                <Container >
+                    <div className='footer-copyright__text'>
+                        <span>Copyright © 2024 supporter.ae</span>
+                        <span>Powered by supporter.ae</span>
+                    </div>
+                </Container>
+            </div>
         </footer>
     );
 }

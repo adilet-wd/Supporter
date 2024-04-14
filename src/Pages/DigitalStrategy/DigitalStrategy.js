@@ -11,6 +11,7 @@ import { ReactComponent as TikTokLogo } from '../../assets/icons/tiktok.svg';
 import { ReactComponent as WeChatLogo } from '../../assets/icons/wechat.svg';
 import { ReactComponent as XLogo } from '../../assets/icons/x.svg';
 import { ReactComponent as YouTubeLogo } from '../../assets/icons/youtube.svg';
+
 const DigitalStrategy = () => {
     return (
         <>
