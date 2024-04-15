@@ -1,6 +1,17 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { ReactComponent as DesignServiceLogo } from '../../assets/icons/service-design.svg';
+import { ReactComponent as Branding  } from '../../assets/icons/Branding.svg';
+import { ReactComponent as Presentation } from '../../assets/icons/Presentation.svg';
+import { ReactComponent as Motion  } from '../../assets/icons/Motion.svg';
+import { ReactComponent as Label  } from '../../assets/icons/Label.svg';
+import { ReactComponent as Social  } from '../../assets/icons/Social.svg';
+import { ReactComponent as LogoDesign } from '../../assets/icons/LogoDesign.svg';
+import { ReactComponent as UI  } from '../../assets/icons/UI.svg';
+import { ReactComponent as Illustration  } from '../../assets/icons/Illustration.svg';
+import { ReactComponent as Product  } from '../../assets/icons/Product.svg';
+
+
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
 import SectionElement from '../../Components/SectionElement/SectionElement';
@@ -22,13 +33,13 @@ const DesignService = () => {
             </div>
             <SectionBlock>
                 <SectionList>
-                    <SectionElement>Branding Design</SectionElement>
-                    <SectionElement>Social Media Creative</SectionElement>
-                    <SectionElement>Illustration Design</SectionElement>
-                    <SectionElement>Presentation Design</SectionElement>
-                    <SectionElement>Logo Design</SectionElement>
-                    <SectionElement>Product Design</SectionElement>
-                    <SectionElement>Motion Design</SectionElement>
+                    <SectionElement><Branding/>Branding Design</SectionElement>
+                    <SectionElement><Social/>Social Media Creative</SectionElement>
+                    <SectionElement><Illustration/>Illustration Design</SectionElement>
+                    <SectionElement><Presentation/>Presentation Design</SectionElement>
+                    <SectionElement><LogoDesign/>Logo Design</SectionElement>
+                    <SectionElement><Product/>Product Design</SectionElement>
+                    <SectionElement><Motion/>Motion Design</SectionElement>
                     <SectionElement>Web Design</SectionElement>
                     <SectionElement>Event Design</SectionElement>
                     <SectionElement>T-Shirt Design</SectionElement>
@@ -36,8 +47,8 @@ const DesignService = () => {
                     <SectionElement>Social Media Kit Design</SectionElement>
                     <SectionElement>Flyer Design</SectionElement>
                     <SectionElement>Catalogue Design</SectionElement>
-                    <SectionElement>UI UX Design</SectionElement>
-                    <SectionElement>Label Design</SectionElement>
+                    <SectionElement><UI/>UI UX Design</SectionElement>
+                    <SectionElement><Label/>Label Design</SectionElement>
                     <SectionElement>ID Card Design</SectionElement>
                     <SectionElement>Leaflet Design</SectionElement>
                     <SectionElement>Business Card Design</SectionElement>

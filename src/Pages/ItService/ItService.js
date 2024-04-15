@@ -1,6 +1,15 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { ReactComponent as ServiceIT } from '../../assets/icons/service-it.svg';
+import { ReactComponent as Workspace  } from '../../assets/icons/Workspace.svg';
+import { ReactComponent as Software  } from '../../assets/icons/Software.svg';
+import { ReactComponent as Hardware   } from '../../assets/icons/Hardware.svg';
+import { ReactComponent as Landing  } from '../../assets/icons/Landing.svg';
+import { ReactComponent as Printer  } from '../../assets/icons/Printer.svg';
+
+
+
+
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
 import SectionElement from '../../Components/SectionElement/SectionElement';
@@ -22,13 +31,11 @@ const ItService = () => {
             </div>
             <SectionBlock>
                 <SectionList>
-                    <SectionElement>PC workspace maintenance</SectionElement>
-                    <SectionElement>Landing web pages</SectionElement>
-                    <SectionElement>Printer maintenance</SectionElement>
-                    <SectionElement>Network installment</SectionElement>
-                    <SectionElement>Hardware repair</SectionElement>
-                    <SectionElement>Software maintenance</SectionElement>
-                    <SectionElement>Network maintenance</SectionElement>
+                    <SectionElement><Workspace /><div>PC workspace maintenance</div></SectionElement>
+                    <SectionElement><Landing/>Landing web pages</SectionElement>
+                    <SectionElement><Printer/>Printer maintenance</SectionElement>
+                    <SectionElement><Hardware/>Hardware repair</SectionElement>
+                    <SectionElement><Software/>Software maintenance</SectionElement>
                 </SectionList>
             </SectionBlock>
         </Container>

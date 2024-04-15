@@ -4,6 +4,18 @@
     font-size: 32px;
     font-weight: 500;
     font-family: 'Diodrum Cyrillic';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    >:first-child{
+        width: 38px;
+        height: 38px;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
     @media (max-width: $media-width-sm) {
         font-size: 28px;
     }
