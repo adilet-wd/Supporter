@@ -1,6 +1,13 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { ReactComponent as AiServiceLogo } from '../../assets/icons/service-ai.svg';
+import { ReactComponent as Workspace  } from '../../assets/icons/Workspace.svg';
+import { ReactComponent as Software  } from '../../assets/icons/Software.svg';
+import { ReactComponent as Hardware   } from '../../assets/icons/Hardware.svg';
+import { ReactComponent as Landing  } from '../../assets/icons/Landing.svg';
+import { ReactComponent as Printer  } from '../../assets/icons/Printer.svg';
+
+
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
 import SectionElement from '../../Components/SectionElement/SectionElement';
@@ -22,13 +29,11 @@ const AiService = () => {
             </div>
             <SectionBlock>
                 <SectionList>
-                    <SectionElement>PC workspace maintenance</SectionElement>
-                    <SectionElement>Landing web pages</SectionElement>
-                    <SectionElement>Printer maintenance</SectionElement>
-                    <SectionElement>Network installment</SectionElement>
-                    <SectionElement>Hardware repair</SectionElement>
-                    <SectionElement>Software maintenance</SectionElement>
-                    <SectionElement>Network maintenance</SectionElement>
+                    <SectionElement><Workspace /><div>PC workspace maintenance</div></SectionElement>
+                    <SectionElement><Landing/><div>Landing web pages</div></SectionElement>
+                    <SectionElement><Printer/><div>Printer maintenance</div></SectionElement>
+                    <SectionElement><Hardware/><div>Hardware repair</div></SectionElement>
+                    <SectionElement><Software/><div>Software maintenance</div></SectionElement>
                 </SectionList>
             </SectionBlock> 
         </Container>

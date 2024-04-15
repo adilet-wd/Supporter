@@ -33,7 +33,7 @@ const DesignService = () => {
             </div>
             <SectionBlock>
                 <SectionList>
-                    <SectionElement><Branding/>Branding Design</SectionElement>
+                    <SectionElement><Branding/><div>Branding Design</div></SectionElement>
                     <SectionElement><Social/>Social Media Creative</SectionElement>
                     <SectionElement><Illustration/>Illustration Design</SectionElement>
                     <SectionElement><Presentation/>Presentation Design</SectionElement>

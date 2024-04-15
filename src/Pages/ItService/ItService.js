@@ -32,10 +32,10 @@ const ItService = () => {
             <SectionBlock>
                 <SectionList>
                     <SectionElement><Workspace /><div>PC workspace maintenance</div></SectionElement>
-                    <SectionElement><Landing/>Landing web pages</SectionElement>
-                    <SectionElement><Printer/>Printer maintenance</SectionElement>
-                    <SectionElement><Hardware/>Hardware repair</SectionElement>
-                    <SectionElement><Software/>Software maintenance</SectionElement>
+                    <SectionElement><Landing/><div>Landing web pages</div></SectionElement>
+                    <SectionElement><Printer/><div>Printer maintenance</div></SectionElement>
+                    <SectionElement><Hardware/><div>Hardware repair</div></SectionElement>
+                    <SectionElement><Software/><div>Software maintenance</div></SectionElement>
                 </SectionList>
             </SectionBlock>
         </Container>
