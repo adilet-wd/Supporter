@@ -12,7 +12,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 25px;
     }
-    @media (max-width: $media-width-sm) {
+    @media (max-width: 480px) {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 25px;
     }
