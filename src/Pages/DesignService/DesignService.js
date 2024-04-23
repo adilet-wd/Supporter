@@ -10,6 +10,16 @@ import { ReactComponent as LogoDesign } from '../../assets/icons/LogoDesign.svg'
 import { ReactComponent as UI  } from '../../assets/icons/UI.svg';
 import { ReactComponent as Illustration  } from '../../assets/icons/Illustration.svg';
 import { ReactComponent as Product  } from '../../assets/icons/Product.svg';
+import { ReactComponent as TShirt  } from '../../assets/icons/t-shirt-design.svg';
+import { ReactComponent as Flyer  } from '../../assets/icons/flyer-design.svg';
+import { ReactComponent as Business  } from '../../assets/icons/business-design.svg';
+import { ReactComponent as Web  } from '../../assets/icons/web-design.svg';
+import { ReactComponent as Photo  } from '../../assets/icons/photo-design.svg';
+import { ReactComponent as Event  } from '../../assets/icons/event-design.svg';
+import { ReactComponent as SocialMediaKit  } from '../../assets/icons/social-media-design.svg';
+import { ReactComponent as IdCard  } from '../../assets/icons/id-design.svg';
+import { ReactComponent as Leaflet  } from '../../assets/icons/leaflet-design.svg';
+import { ReactComponent as Catalogue  } from '../../assets/icons/catalogue-design.svg';
 
 
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
@@ -34,24 +44,24 @@ const DesignService = () => {
             <SectionBlock>
                 <SectionList>
                     <SectionElement><Branding/><div>Branding Design</div></SectionElement>
-                    <SectionElement><Social/>Social Media Creative</SectionElement>
-                    <SectionElement><Illustration/>Illustration Design</SectionElement>
-                    <SectionElement><Presentation/>Presentation Design</SectionElement>
-                    <SectionElement><LogoDesign/>Logo Design</SectionElement>
-                    <SectionElement><Product/>Product Design</SectionElement>
-                    <SectionElement><Motion/>Motion Design</SectionElement>
-                    <SectionElement>Web Design</SectionElement>
-                    <SectionElement>Event Design</SectionElement>
-                    <SectionElement>T-Shirt Design</SectionElement>
-                    <SectionElement>Photo Editing</SectionElement>
-                    <SectionElement>Social Media Kit Design</SectionElement>
-                    <SectionElement>Flyer Design</SectionElement>
-                    <SectionElement>Catalogue Design</SectionElement>
-                    <SectionElement><UI/>UI UX Design</SectionElement>
-                    <SectionElement><Label/>Label Design</SectionElement>
-                    <SectionElement>ID Card Design</SectionElement>
-                    <SectionElement>Leaflet Design</SectionElement>
-                    <SectionElement>Business Card Design</SectionElement>
+                    <SectionElement><Social/><div>Social Media Creative</div></SectionElement>
+                    <SectionElement><Illustration/><div>Illustration Design</div></SectionElement>
+                    <SectionElement><Presentation/><div>Presentation Design</div></SectionElement>
+                    <SectionElement><LogoDesign/><div>Logo Design</div></SectionElement>
+                    <SectionElement><Product/><div>Product Design</div></SectionElement>
+                    <SectionElement><Motion/><div>Motion Design</div></SectionElement>
+                    <SectionElement><Web/><div>Web Design</div></SectionElement>
+                    <SectionElement><Event/><div>Event Design</div></SectionElement>
+                    <SectionElement><TShirt/><div>T-Shirt Design</div></SectionElement>
+                    <SectionElement><Photo/><div>Photo Editing</div></SectionElement>
+                    <SectionElement><SocialMediaKit/><div>Social Media Kit Design</div></SectionElement>
+                    <SectionElement><Flyer/><div>Flyer Design</div></SectionElement>
+                    <SectionElement><Catalogue/><div>Catalogue Design</div></SectionElement>
+                    <SectionElement><UI/><div>UI UX Design</div></SectionElement>
+                    <SectionElement><Label/><div>Label Design</div></SectionElement>
+                    <SectionElement><IdCard/><div>ID Card Design</div></SectionElement>
+                    <SectionElement><Leaflet/><div>Leaflet Design</div></SectionElement>
+                    <SectionElement><Business/><div>Business Card Design</div></SectionElement>
                 </SectionList>
             </SectionBlock>
         </Container>

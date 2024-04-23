@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { ReactComponent as AiServiceLogo } from '../../assets/icons/service-ai.svg';
-import { ReactComponent as Workspace  } from '../../assets/icons/Workspace.svg';
-import { ReactComponent as Software  } from '../../assets/icons/Software.svg';
-import { ReactComponent as Hardware   } from '../../assets/icons/Hardware.svg';
-import { ReactComponent as Landing  } from '../../assets/icons/Landing.svg';
-import { ReactComponent as Printer  } from '../../assets/icons/Printer.svg';
+import { ReactComponent as Fitness  } from '../../assets/icons/fitness-ai.svg';
+import { ReactComponent as HealtCare  } from '../../assets/icons/healthcare-ai.svg';
+import { ReactComponent as Office   } from '../../assets/icons/office-ai.svg';
+import { ReactComponent as Security  } from '../../assets/icons/security-ai.svg';
 
 
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
@@ -29,11 +28,10 @@ const AiService = () => {
             </div>
             <SectionBlock>
                 <SectionList>
-                    <SectionElement><Workspace /><div>PC workspace maintenance</div></SectionElement>
-                    <SectionElement><Landing/><div>Landing web pages</div></SectionElement>
-                    <SectionElement><Printer/><div>Printer maintenance</div></SectionElement>
-                    <SectionElement><Hardware/><div>Hardware repair</div></SectionElement>
-                    <SectionElement><Software/><div>Software maintenance</div></SectionElement>
+                    <SectionElement><Fitness /><div>Ai fitness trainer</div></SectionElement>
+                    <SectionElement><HealtCare/><div>Ai health care</div></SectionElement>
+                    <SectionElement><Office/><div>Ai office manager</div></SectionElement>
+                    <SectionElement><Security/><div>Ai security</div></SectionElement>
                 </SectionList>
             </SectionBlock> 
         </Container>
