@@ -14,6 +14,7 @@ import AiService from './Pages/AiService/AiService';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Contacts from './Pages/Contacts/Contacts';
 import OurProjects from './Pages/OurProjects/OurProjects';
+import Search from './Pages/Search/Search';
 
 function App() {
   const location = useLocation();
@@ -36,6 +37,7 @@ function App() {
           <Route path="/design-service" element={<DesignService/>} />
           <Route path="/digital-strategy" element={<DigitalStrategy/>} />
           <Route path="/ai-services" element={<AiService/>} />
+          <Route path="/search" element={<Search/>} />
           <Route path="*" element={<Notfoundpage/>} />
         </Route>
       </Routes>

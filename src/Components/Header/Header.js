@@ -5,9 +5,24 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from "../../assets/icons/logo.svg"
 import search from "../../assets/icons/search.svg"
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 import './Header.scss';
 
 const Header = () => {
+
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    navigate(`search?target=${searchTerm}`);
+  };
+
   return (
     <header>
       <Navbar key={'md'} expand={'lg'} className=" mb-3">
@@ -32,12 +47,12 @@ const Header = () => {
                   <Nav.Link href="/contacts">CONTACTS</Nav.Link>
                   <Nav.Link href="/projects">OUR PROJECTS</Nav.Link>
                 </Nav>
-                <div className='navSearch_block'>
-                    <input type="text" placeholder='Search' className='navSearch' />
-                    <div className='navSearch_circle'>
+                <form className='navSearch_block' onSubmit={handleSubmit}>
+                    <input required type="text" placeholder='Search' className='navSearch' onChange={handleInputChange}/>
+                    <button type="submit" className='navSearch_circle'>
                         <img src={search} alt="error" className='navSearch_icon'/>
-                    </div>
-                </div>
+                    </button>
+                </form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

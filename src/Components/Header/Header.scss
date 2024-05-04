@@ -53,7 +53,13 @@
     align-items: center;
     justify-content:center ;
     border-radius: 50%;
-    // position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    &:hover {
+        background-color: #fd1d1a;
+        transform: scale(1.1); 
+    }
 }
 .navSearch_icon{
     width: 20px;

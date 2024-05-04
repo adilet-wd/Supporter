@@ -1,0 +1,19 @@
+@import '../../breakpoints.scss';
+.search__element {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    .element__title {
+        font-size: 1.2em;
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+    .element__service {
+        color: #6c757d;
+        .contact__link {
+            color: #6c757d;
+        }
+    }
+}
