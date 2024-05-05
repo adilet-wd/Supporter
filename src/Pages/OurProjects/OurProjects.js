@@ -1,10 +1,15 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './OurProjects.scss';
+import { Helmet } from 'react-helmet';
 
 const OurProjects = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - Our projects</title>
+            <meta name="description" content="Supporter - Our projects" />
+        </Helmet>
         <Container className='section-container projects-container'>
             <div className='section__title'>
                 <div className='section__text'>

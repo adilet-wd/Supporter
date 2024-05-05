@@ -165,7 +165,7 @@ export default function Search() {
         }
     }, [searchParam]);
     return (
-        <>
+        <>  
             <Container className='search__block'>
                 {foundList.length > 0 
                 ? (

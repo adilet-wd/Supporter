@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Contacts.scss';
-
+import { Helmet } from 'react-helmet';
 const Contacts = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - Our contacts</title>
+            <meta name="description" content="Supporter - Our contacts" />
+        </Helmet>
         <Container className='section-container contacts-container'>
             <div className='section__title'>
                 <div className='section__text'>

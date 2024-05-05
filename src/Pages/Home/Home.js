@@ -4,7 +4,7 @@ import { ReactComponent as ServiceIT } from '../../assets/icons/service-it.svg';
 import { ReactComponent as ServiceDesign } from '../../assets/icons/service-design.svg';
 import { ReactComponent as DigitalStrategy } from '../../assets/icons/digital-strategy.svg';
 import { ReactComponent as ServiceAI } from '../../assets/icons/service-ai.svg';
-
+import { Helmet } from 'react-helmet';
 
 import './Home.scss';
 import { Link } from 'react-router-dom';
@@ -12,6 +12,10 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <title>Supporter</title>
+                <meta name="description" content="Supporter - Home page" />
+            </Helmet>
             <Container className='home-container'>
                 <div className='header__sections'>
                     <Link to="/it-service" className='header__section'>

@@ -10,10 +10,15 @@ import { ReactComponent as Security  } from '../../assets/icons/security-ai.svg'
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
 import SectionElement from '../../Components/SectionElement/SectionElement';
+import { Helmet } from 'react-helmet';
 
 const AiService = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - AI Service</title>
+            <meta name="description" content="Supporter - AI Service" />
+        </Helmet>
         <Container className='section-container ai-container'>
             <div className='section__title'>
                 <div className='section__logo'>

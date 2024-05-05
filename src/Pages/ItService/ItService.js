@@ -6,7 +6,7 @@ import { ReactComponent as Software  } from '../../assets/icons/Software.svg';
 import { ReactComponent as Hardware   } from '../../assets/icons/Hardware.svg';
 import { ReactComponent as Landing  } from '../../assets/icons/Landing.svg';
 import { ReactComponent as Printer  } from '../../assets/icons/Printer.svg';
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -17,6 +17,10 @@ import SectionElement from '../../Components/SectionElement/SectionElement';
 const ItService = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - It Service</title>
+            <meta name="description" content="Supporter - It Service" />
+        </Helmet>
         <Container className='section-container it-container'>
             <div className='section__title'>
                 <div className='section__logo'>

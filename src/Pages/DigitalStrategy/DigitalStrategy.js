@@ -12,11 +12,15 @@ import { ReactComponent as WeChatLogo } from '../../assets/icons/wechat.svg';
 import { ReactComponent as XLogo } from '../../assets/icons/x.svg';
 import { ReactComponent as YouTubeLogo } from '../../assets/icons/youtube.svg';
 import { ReactComponent as WhatsappLogo } from '../../assets/icons/whatsapp.svg';
-
+import { Helmet } from 'react-helmet';
 
 const DigitalStrategy = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - Digital Strategy</title>
+            <meta name="description" content="Supporter - Digital Strategy" />
+        </Helmet>
         <Container className='section-container digital-container'>
             <div className='section__title'>
                 <div className='section__logo'>

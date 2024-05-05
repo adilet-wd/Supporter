@@ -20,7 +20,7 @@ import { ReactComponent as SocialMediaKit  } from '../../assets/icons/social-med
 import { ReactComponent as IdCard  } from '../../assets/icons/id-design.svg';
 import { ReactComponent as Leaflet  } from '../../assets/icons/leaflet-design.svg';
 import { ReactComponent as Catalogue  } from '../../assets/icons/catalogue-design.svg';
-
+import { Helmet } from 'react-helmet';
 
 import SectionBlock from '../../Components/SectionBlock/SectionBlock';
 import SectionList from '../../Components/SectionList/SectionList';
@@ -29,6 +29,10 @@ import SectionElement from '../../Components/SectionElement/SectionElement';
 const DesignService = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - Design Service</title>
+            <meta name="description" content="Supporter - Design Service" />
+        </Helmet>
         <Container className='section-container design-container'>
             <div className='section__title'>
                 <div className='section__logo'>

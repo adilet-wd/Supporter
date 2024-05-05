@@ -2,10 +2,16 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './AboutUs.scss';
+import { Helmet } from 'react-helmet';
+
 
 const AboutUs = () => {
     return (
         <>
+        <Helmet>
+            <title>Supporter - About us</title>
+            <meta name="description" content="Supporter - About us" />
+        </Helmet>
         <Container className='section-container about-container'>
             <div className='section__title'>
                 <div className='section__text'>
