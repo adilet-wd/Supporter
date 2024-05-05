@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import SearchElement from '../../Components/SearchElement/SearchElement';
 import "./Search.scss";
 let serviceList = [
@@ -166,7 +166,7 @@ export default function Search() {
     }, [searchParam]);
     return (
         <>
-            <Container>
+            <Container className='search__block'>
                 {foundList.length > 0 
                 ? (
                     <div className='search__list'>
@@ -178,7 +178,9 @@ export default function Search() {
                     </div>
                 ) 
                 :(
-                    <h1 className='text-center'>No results found</h1>
+                    <div className='notFound__text'>
+                        <Link to={'/'}><h1 className='text-center'>No results found</h1></Link>
+                    </div>
                 )}
             </Container>
 

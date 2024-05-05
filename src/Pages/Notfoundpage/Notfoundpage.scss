@@ -1,15 +1,29 @@
+@import '../../color_variables.scss';
+
 .notFound {
     min-height: 70vh;
     padding: 50px 0;
 }
 .notFound__text {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    a {
+        color: #2F2F2F;
+        display: inline-flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
     h1 {
-        text-align: center; 
         font-weight: 700;
         font-size: 3em;
+        display: inline;
+
      }
      p {
-         font-size: 2em;
-         text-align: center;
+        font-size: 2em;
+        display: inline;
+
      }
 }
