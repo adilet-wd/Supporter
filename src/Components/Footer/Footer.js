@@ -10,6 +10,7 @@ import { ReactComponent as TikTokLogo } from '../../assets/icons/tiktok.svg';
 import { ReactComponent as WeChatLogo } from '../../assets/icons/wechat.svg';
 import { ReactComponent as XLogo } from '../../assets/icons/x.svg';
 import { ReactComponent as YouTubeLogo } from '../../assets/icons/youtube.svg';
+import { ReactComponent as WhatsappLogo } from '../../assets/icons/whatsapp.svg';
 
 
 
@@ -22,7 +23,7 @@ const Footer = () => {
                 <h3 className='footer__title text-center'>Follow us for more updates</h3>
                 <div className='footer__socials'>
 
-                    <a href='#' target="_blank" rel="noopener noreferrer" className='footer__social'>
+                    <a href='https://www.facebook.com/' target="_blank" rel="noopener noreferrer" className='footer__social'>
                         <FacebookLogo></FacebookLogo>
                     </a>
                     <a href='https://ae.linkedin.com/in/supporters-dubai-194522303' target="_blank" rel="noopener noreferrer" className='footer__social'>
@@ -31,7 +32,10 @@ const Footer = () => {
                     <a href='https://t.me/971555561505' target="_blank" rel="noopener noreferrer" className='footer__social'>
                         <TelegramLogo></TelegramLogo>
                     </a>
-                    <a href='#' target="_blank" rel="noopener noreferrer" className='footer__social'>
+                    <a href='https://wa.me/971555561505' target="_blank" rel="noopener noreferrer" className='footer__social whatsapp-logo'>
+                        <WhatsappLogo></WhatsappLogo>
+                    </a>
+                    <a href='https://www.wechat.com/' target="_blank" rel="noopener noreferrer" className='footer__social'>
                         <WeChatLogo></WeChatLogo>
                     </a>
                     <a href='https://www.instagram.com/supporter_ae?igsh=cjV1M2Z3eXhsYXo5' target="_blank" rel="noopener noreferrer" className='footer__social'>

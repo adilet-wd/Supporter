@@ -11,6 +11,8 @@ import { ReactComponent as TikTokLogo } from '../../assets/icons/tiktok.svg';
 import { ReactComponent as WeChatLogo } from '../../assets/icons/wechat.svg';
 import { ReactComponent as XLogo } from '../../assets/icons/x.svg';
 import { ReactComponent as YouTubeLogo } from '../../assets/icons/youtube.svg';
+import { ReactComponent as WhatsappLogo } from '../../assets/icons/whatsapp.svg';
+
 
 const DigitalStrategy = () => {
     return (
@@ -46,6 +48,9 @@ const DigitalStrategy = () => {
                     </a>
                     <a href='https://www.tiktok.com/' target="_blank" rel="noopener noreferrer" className='digital__social'>
                         <TikTokLogo></TikTokLogo>
+                    </a>
+                    <a href='https://wa.me/971555561505' target="_blank" rel="noopener noreferrer" className='digital__social'>
+                        <WhatsappLogo></WhatsappLogo>
                     </a>
                     <a href='https://www.wechat.com/' target="_blank" rel="noopener noreferrer" className='digital__social'>
                         <WeChatLogo></WeChatLogo>
